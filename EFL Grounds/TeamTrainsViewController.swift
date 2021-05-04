@@ -16,7 +16,6 @@ class TeamTrainsViewController: UIViewController, WKUIDelegate, WKNavigationDele
     @IBOutlet weak var loadingText: UILabel!
     @IBOutlet weak var loadingSpinner: UIActivityIndicatorView!
     
-    
     func loadStationData() {
         loadingText.text = "Loading Train Times"
         let station = (parent as! TeamViewController).stationCode
@@ -73,16 +72,4 @@ class TeamTrainsViewController: UIViewController, WKUIDelegate, WKNavigationDele
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
