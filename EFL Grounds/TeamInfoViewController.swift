@@ -40,7 +40,7 @@ class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
         byDrink.sizeToFit()
         byDrink.textContainerInset = UIEdgeInsets(top: 8,left: 0,bottom: 50,right: 0)
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-1798485712270431/5850248129"
+        bannerView.adUnitID = "ca-app-pub-"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         // Do any additional setup after loading the view.
