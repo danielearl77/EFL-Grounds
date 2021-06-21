@@ -512,14 +512,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "The nearest railway station is Stroud, well over five miles away so a taxi will be your best bet. You can also get the Number 63 Bus from Stroud to Nailsworth."
             teamDrinkInfo = "The club sometimes set up a small marquee serving drinks near the away turnstiles. The George on Newmarket Road is the closest to the ground, otherwise there are several pubs in the centre of Nailsworth."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/forest-green-rovers/scores-fixtures"
-        } else if teamName == "Grimsby Town" {
-            stationCode = "CLE"
-            stadiumLat = 53.570247
-            stadiumLon = -0.046709
-            teamCarInfo = "Sat Nav Postcode: DN35 7PY\n\nFrom the North take the M180 to Grimsby, and continue onto the A180, once in Grimsby stay on the A180 and follow the signs to Cleethorpes. When you reach the Blundell Park Hotel turn left into Imperial Avenue for the ground.\n\nFrom the south take the A1 North and exit  onto the A46 to Lincoln and onto Grimsby. Stay on the A46 until it becomes Clee Road and at the roundabout turn left onto the A180. Continue on the A180 until you reach the Blundell Park Hotel and then turn right into Imperial Avenue for the ground.\n\nThere is plenty of on street parking in the area."
-            teamTrainInfo = "Take the train to Cleethorpes and exit the station facing the sea. Turing left, walk along the seafront and just before you reach the ground there is a footbridge over the railway line, once over the railway turn right into Harrington Street and then left into Neville Street for the ground."
-            teamDrinkInfo = "The Blundell Park Hotel is the closest pub to the ground. There are also a number of pubs along the seafront if you are walking from Cleethorpes railway station."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/grimsby-town/scores-fixtures"
         } else if teamName == "Harrogate Town" {
             stationCode = "HGT"
             stadiumLat = 53.99173
@@ -528,6 +520,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Harrogate Station and turn right, away from the shopping centre. Turn left and go over Station Bridge, and at the roundabout walk straight over into Station Avenue. Follow Station Avenue into North Park Road, which then becomes Knaresborough Road. Cross Knaresborough Road and then walk through the park called The Stray diagonally joining up with Wetherby Road. The ground is on Wetherby Road on the left-hand side."
             teamDrinkInfo = "There is a Club House inside the ground which admits away fans unless segregation is in force. Otherwise, the nearest pub is the Woodlands, a short distance back down the A661 Wetherby Road heading away from town. Harrogate town centre is around a 20-minute walk away, with plenty of pubs including a Wetherspoons."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/harrogate-town/scores-fixtures"
+        } else if teamName == "Hartlepool Utd" {
+            stationCode = "HPL"
+            stadiumLat = 54.68957
+            stadiumLon = -1.21360
+            teamCarInfo = "Sat Nav Postcode: TS24 8BZ\n\nLeave the A19 and take the A179 towards Hartlepool.  At third roundabout turn right onto Easington Road.  Follow the signs for Town Centre A179 over two roundabouts.  At third roundabout turn right onto Marina Way.  At the next roundabout turn right, and then left at the lights into Clarence Road for the ground."
+            teamTrainInfo = "From Hartlepool Station walk down Station Approach to Church Street.  Turn right onto Church Street, go over the roundabout and then cross over the dual carriageway into Clarence Road.  Follow Clarence Road to the ground."
+            teamDrinkInfo = "The 'Corner Flag Supporters Bar' on the corner at the away end admits away fans (for a small charge).  A popular pub with away fans is the Jackson's Wharf pub, across the road from Asda, near to the ground."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/hartlepool-united/scores-fixtures"
         } else if teamName == "Leyton Orient" {
             stationCode = "SRA"
             stadiumLat = 51.5602116
@@ -592,14 +592,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Scunthorpe Station is about 2 miles away so taxi is the easiest option. To walk turn left out of the station go straight over at Oswald Road into Church Lane, following this to the A18 (Kingsway). Follow Kingsway to the roundabout where it become Doncaster Road, which leads to the ground."
             teamDrinkInfo = "The Old Farmhouse, on the retail park behind the Travelodge is the nearest pub to the ground./n/nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/scunthorpe-united/scores-fixtures"
-        } else if teamName == "Southend Utd" {
-            stationCode = "PRL"
-            stadiumLat = 51.5492654
-            stadiumLon = 0.7020663
-            teamCarInfo = "Sat Nav Postcode: SS2 6NQ\n\nLeave the M25 at Junction 29 onto the A127 towards Southend. Follow signs towards Central Southend, carry on past the Bell Pub and at the next roundabout take the third exit into Victoria Avenue. The ground is on the right hand side just past the next set of traffic lights."
-            teamTrainInfo = "Take the train to Prittlewell, and exit the Station onto East Street. Turn right at the junction with Victoria Avenue and the ground is on the left hand side.  To get to the away turnstiles walk down Victoria Avenue past the main entrance and turn left into Fairfax Drive. The away entrance is on the left."
-            teamDrinkInfo = "The only real option for away fans is the Railway Tavern outside Prittlewell Railway Station.\n\nAlcohol is not available to away fans inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southend-united/scores-fixtures"
         } else if teamName == "Stevenage" {
             stationCode = "SVG"
             stadiumLat = 51.8897477
@@ -608,6 +600,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Stevenage Station towards Stevenage Lesure Centre and head south down Lytton Way. At the first roundabout go straight over and then at the second roundabout take the second exit onto Monkswood Way. Follow Monkswood Way to the next roundabout for the ground."
             teamDrinkInfo = "The only really option near the ground is the Club House bar behind the South Stand. Otherwise there are pubs in the town centre, only a 15 to 20 minute walk from the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/stevenage/scores-fixtures"
+        } else if teamName == "Sutton Utd" {
+            stationCode = "WSU"
+            stadiumLat = 51.36759
+            stadiumLon = -0.20429
+            teamCarInfo = "Sat Nav Postcode: SM1 2EY\n\nLeave the M25 at Junction 8 and take the A217 towards Sutton. When you reach a small roundabout, bear left continuing on the A217 towards Central London. At the second set of traffic lights turn right into Gander Green Lane. The ground is up here on the left."
+            teamTrainInfo = "Exit West Sutton Railway Station and turn right. The ground is on the right about two minutes away."
+            teamDrinkInfo = "At the ground there is a Social Club which admits away fans, and on the A217 you will find the Gander Pub. Otherwise there are several pubs in Sutton town centre."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sutton-united/scores-fixtures"
         } else if teamName == "Tranmere Rovers" {
             stationCode = "RFY"
             stadiumLat = 53.3732067
