@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vzK-Oc-lqU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vzK-Oc-lqU">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,8 +64,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jsB-6X-acl"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="mapIconSet" selectedImage="mapIconSet" id="wVD-Xg-RH7"/>
                     <connections>
@@ -102,6 +102,7 @@
                                 <rect key="frame" x="150" y="327" width="75" height="20"/>
                             </activityIndicatorView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6qb-n5-Kwl"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="AMb-cN-Sun" firstAttribute="top" secondItem="6qb-n5-Kwl" secondAttribute="top" id="3ek-wp-mx6"/>
@@ -115,7 +116,6 @@
                             <constraint firstItem="6qb-n5-Kwl" firstAttribute="trailing" secondItem="ynM-BQ-YIQ" secondAttribute="trailing" constant="16" id="qqI-Py-hTD"/>
                             <constraint firstItem="ynM-BQ-YIQ" firstAttribute="leading" secondItem="6qb-n5-Kwl" secondAttribute="leading" constant="16" id="yjG-kA-59M"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6qb-n5-Kwl"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fixtures" image="fixturesIconSet" selectedImage="fixturesIconSet" id="2CH-9x-3Es"/>
                     <connections>
@@ -199,29 +199,18 @@
                                     <constraint firstItem="54f-UZ-qGr" firstAttribute="leading" secondItem="FWe-Ab-PS7" secondAttribute="leading" id="zrE-JR-to8"/>
                                 </constraints>
                             </scrollView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipF-iW-Io3" customClass="GADBannerView">
-                                <rect key="frame" x="27.666666666666657" y="679" width="320" height="50"/>
-                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="8E7-aU-lE1"/>
-                                    <constraint firstAttribute="height" constant="50" id="eMj-fY-Cys"/>
-                                </constraints>
-                            </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="iPv-mb-ytB"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="EWc-NJ-vJP" secondAttribute="trailing" id="0eU-cx-bwv"/>
-                            <constraint firstItem="ipF-iW-Io3" firstAttribute="bottom" secondItem="iPv-mb-ytB" secondAttribute="bottom" id="1pV-eo-dQN"/>
                             <constraint firstItem="iPv-mb-ytB" firstAttribute="bottom" secondItem="EWc-NJ-vJP" secondAttribute="bottom" id="O2X-h9-ec1"/>
                             <constraint firstItem="EWc-NJ-vJP" firstAttribute="leading" secondItem="173-qI-4gX" secondAttribute="leading" id="a0U-mU-9Hm"/>
-                            <constraint firstItem="ipF-iW-Io3" firstAttribute="centerX" secondItem="EWc-NJ-vJP" secondAttribute="centerX" id="r8P-fl-xZ5"/>
                             <constraint firstItem="EWc-NJ-vJP" firstAttribute="top" secondItem="iPv-mb-ytB" secondAttribute="top" id="yiH-9o-O3d"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="iPv-mb-ytB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="infoIconSet" selectedImage="infoIconSet" id="m5P-oV-Lud"/>
                     <connections>
-                        <outlet property="bannerView" destination="ipF-iW-Io3" id="UGw-3M-4fZ"/>
                         <outlet property="byCar" destination="oQM-6Z-p0g" id="67p-7o-Q6z"/>
                         <outlet property="byDrink" destination="aig-ei-olG" id="7oy-e2-t6n"/>
                         <outlet property="byTrain" destination="54f-UZ-qGr" id="8lD-hC-7hP"/>
@@ -247,7 +236,7 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uI3-xz-BXl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uI3-xz-BXl">
                                 <rect key="frame" x="16" y="689" width="343" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -264,6 +253,7 @@
                                 <rect key="frame" x="177.66666666666666" y="424.66666666666669" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="rd7-00-Nnd"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="C6O-V2-ZmO" firstAttribute="centerX" secondItem="EnE-qX-LrA" secondAttribute="centerX" id="6fF-ag-jQe"/>
@@ -279,7 +269,6 @@
                             <constraint firstItem="ns0-A6-xB2" firstAttribute="centerX" secondItem="EnE-qX-LrA" secondAttribute="centerX" id="ts5-mx-H6g"/>
                             <constraint firstItem="ns0-A6-xB2" firstAttribute="trailing" secondItem="uI3-xz-BXl" secondAttribute="trailing" id="x0j-XJ-ThG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="rd7-00-Nnd"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Trains" image="trainIconSet" selectedImage="trainIconSet" id="mnA-5z-Gf9"/>
                     <connections>
@@ -370,7 +359,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="a9B-EQ-yL6" firstAttribute="top" secondItem="A2I-pg-VQr" secondAttribute="bottom" constant="10" id="GPG-OL-mft"/>
                             <constraint firstItem="A2I-pg-VQr" firstAttribute="top" secondItem="Gg0-M6-MV9" secondAttribute="bottom" constant="10" id="H8s-d2-HPX"/>
@@ -379,7 +369,6 @@
                             <constraint firstItem="a9B-EQ-yL6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fqo-NO-S3p"/>
                             <constraint firstItem="A2I-pg-VQr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g2A-Ou-jhJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="EFL Ground Guide" id="c9v-ao-egO">
                         <barButtonItem key="backBarButtonItem" title="Home" id="fwb-iH-uQu"/>
@@ -519,8 +508,8 @@ To get in touch please use the contact form on the website.
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ueO-dI-0uF"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaM-pa-f8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -559,5 +548,8 @@ To get in touch please use the contact form on the website.
         <image name="infoIconSet" width="23" height="23"/>
         <image name="mapIconSet" width="23" height="23"/>
         <image name="trainIconSet" width="23" height="23"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

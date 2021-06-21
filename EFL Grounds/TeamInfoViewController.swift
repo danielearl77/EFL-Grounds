@@ -7,27 +7,13 @@
 //
 
 import UIKit
-import GoogleMobileAds
 
-class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
+class TeamInfoViewController: UIViewController {
 
     @IBOutlet weak var byCar: UITextView!
     @IBOutlet weak var byTrain: UITextView!
     @IBOutlet weak var byDrink: UITextView!
-    @IBOutlet weak var bannerView: GADBannerView!
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        if (bannerView.isHidden) {
-            bannerView.isHidden = false
-        }
-    }
-    
-    func adView(_ bannerView: GADBannerView,
-                didFailToReceiveAdWithError error: GADRequestError) {
-        NSLog("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
-        bannerView.isHidden = true
-    }
-    
+        
     override func viewDidLoad() {
         let carInfo = (parent as! TeamViewController).teamCarInfo
         let trainInfo = (parent as! TeamViewController).teamTrainInfo
@@ -40,9 +26,7 @@ class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
         byDrink.sizeToFit()
         byDrink.textContainerInset = UIEdgeInsets(top: 8,left: 0,bottom: 50,right: 0)
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        
         // Do any additional setup after loading the view.
     }
 
