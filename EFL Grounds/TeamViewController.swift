@@ -79,12 +79,12 @@ class TeamViewController: UITabBarController {
             teamDrinkInfo = "There aren't really any pubs near the ground, and most of the pubs near the old ground are very much home fans only. The best bet is to drink in the City Centre before heading out to the stadium.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/cardiff-city/scores-fixtures"
         } else if teamName == "Coventry" {
-            stationCode = "BHM"
-            stadiumLat = 52.474486
-            stadiumLon = -1.866873
-            teamCarInfo = "Coventry City will be playing home games at Birmingham City this season.\n\nSat Nav Postcode: B9 4RL\n\nLeave the M6 at Junction 6 and take the A38(M) towards Birmingham City Centre. Turn of the A38(M) onto the Inner Ring Road and take the Ring Road East, towards Coventry, after about 2 miles turn left into Coventry Road. The ground is well sign posted on the Inner Ring Road."
-            teamTrainInfo = "New Street Station is about a 30 min walk away. Come out of the station and head towards the Bullring and Digbeth Coach Station. When you reach coach station walk along the dual carriageway (B4100) away from the city, bear left onto Coventry Road (under the railway bridge) and the ground should be visible from here."
-            teamDrinkInfo = "It is best to drink in the City Centre before heading to the stadium as most of the pubs near the ground are really for home fans only. The Brighton pub on Coventry Road does permit small groups of away fans.\n\nAlcohol is also available inside the stadium."
+            stationCode = "COV"
+            stadiumLat = 52.4482668
+            stadiumLon = -1.497429
+            teamCarInfo = "Sat Nav Postcode: CV6 6GE\n\nFrom the M6 Junction 3 take the A444 (Phoenix Way) towards Coventry, the ground is on the left at the next roundabout."
+            teamTrainInfo = "Coventry Station is too far to walk so either take the shuttle bus from the station or a taxi to the ground."
+            teamDrinkInfo = "Most of the pubs near the ground, particularly on Longford Road are not suitable for away fans. However, The Black Horse Pub at the top of Longford Road towards Exhall is being used by away fans.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/coventry-city/scores-fixtures"
         } else if teamName == "Derby County" {
             stationCode = "DBY"
