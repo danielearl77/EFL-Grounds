@@ -317,14 +317,14 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg0-M6-MV9">
                                 <rect key="frame" x="72.666666666666686" y="336" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="OPg-xO-r6d"/>
                                     <constraint firstAttribute="height" constant="40" id="acy-Er-eDZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" backgroundImage="ChampBtn">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="ChampButton">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="ItE-i7-f3s" kind="show" id="nRX-ku-ncl"/>
@@ -332,13 +332,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2I-pg-VQr">
                                 <rect key="frame" x="72.666666666666686" y="386" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="NPE-Tn-Bbj"/>
                                     <constraint firstAttribute="height" constant="40" id="bSA-4Q-Gc1"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="OneBtn">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="LeagueOneButton">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="s1q-DN-Ahj" kind="show" id="G6U-5R-w0o"/>
@@ -346,13 +346,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9B-EQ-yL6">
                                 <rect key="frame" x="72.666666666666686" y="436" width="230" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3qV-eb-pzd"/>
                                     <constraint firstAttribute="width" constant="230" id="4pN-Tm-Lb6"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="TwoBtn">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="LeagueTwoButton">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="sUq-Fj-7gB" kind="show" id="NAu-vc-VWt"/>
@@ -539,9 +539,9 @@ To get in touch please use the contact form on the website.
         <segue reference="UB4-3n-fXf"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="ChampBtn" width="230" height="40"/>
-        <image name="OneBtn" width="230" height="40"/>
-        <image name="TwoBtn" width="230" height="40"/>
+        <image name="ChampButton" width="230" height="40"/>
+        <image name="LeagueOneButton" width="230" height="40"/>
+        <image name="LeagueTwoButton" width="230" height="40"/>
         <image name="aboutIcon" width="30" height="30"/>
         <image name="background" width="2000" height="2829"/>
         <image name="fixturesIconSet" width="23" height="23"/>
