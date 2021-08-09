@@ -228,12 +228,12 @@ class TeamViewController: UITabBarController {
     //MARK: Leauge One Team Data
     func loadOneTeamData() {
         if teamName == "AFC Wimbledon" {
-            stationCode = "NBT"
-            stadiumLat = 51.4060501
-            stadiumLon = -0.2814285
-            teamCarInfo = "Sat Nav Postcode: KT1 3PB\n\nLeave the M25 at Junction 10 and take the A3 towards London. Turn off the A3 at New Malden onto the A2043 and at the next roundabout turn left onto Kingston Road (A2043). Continue on Kingston Road towards Kingston and the ground is on the left after about a mile."
-            teamTrainInfo = "From London Waterloo take the train to Norbiton Station. Exit the station on to either Coombe Road or Norbiton Avenue. From Coombe Road turn left and walk under the railway bridge and then turn right onto Norbiton Avenue. Follow Norbiton Avenue all the way round to Gloucester Road. Turn right onto Gloucester Road and then at the end turn left onto Cambridge Road, the ground is down the third street on the right."
-            teamDrinkInfo = "Close to the ground on Kingston Road are the Duke of Wellington and the Prince of Wales. Otherwise there are pubs in Kingston or New Malden."
+            stationCode = "HYR"
+            stadiumLat = 51.431547
+            stadiumLon = -0.186599
+            teamCarInfo = "Sat Nav Postcode: SW17 0NR\n\nLeave the M25 at Junction 10 and take the A3 towards London. Turn off the A3 at New Malden onto the A298 towards Wimbledon. Continue on the A298 for half a mile and then turn left onto Grand Drive, go past Raynes Park Station and then turn left onto the A238 and then first right onto Worple Road. Continue straight on and at the roundabout take the third exit onto Francis Grove, which becomes St Georges Road.  At the roundabout at the end take the second exit onto the B235.  Continue on the B235, over the river and past Wickes and Lidl, turn left at the next roundabout onto Summerstown and then first left onto Riverside Road, the ground is on the left down New Stadium Road."
+            teamTrainInfo = "The nearest station to Plough Lane is Haydons Road, with Thameslink trains from Wimbledon or London St Pancreas. On leaving the station walk up the steps to Haydons Road and turn right. Head north on Haydons Road until you reach the junction with Gap Road and Plough Lane. Turn right onto Plough Lane and continue walking, over the river, until you reach Lidl. The ground is on the left behind the blocks of new apartments."
+            teamDrinkInfo = "The nearest pub to the ground is the Corner Pin, on the corner of Summertown and Riverside Road. There are also plenty of pubs near Wimbledon Railway Station."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/afc-wimbledon/scores-fixtures"
         } else if teamName == "Accrington Stanley" {
             stationCode = "ACR"
