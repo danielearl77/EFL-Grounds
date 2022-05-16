@@ -1,21 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "Stockport.png",
       "idiom" : "universal",
-      "filename" : "Scunthorpe Utd.png",
       "scale" : "1x"
     },
     {
+      "filename" : "Stockport@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Stockport@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

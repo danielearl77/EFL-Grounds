@@ -10,7 +10,7 @@ import UIKit
 
 class ChampionshipTableViewController: UITableViewController {
 
-     var Teams: [String] = ["Barnsley","Birmingham","Blackburn","Blackpool","Bristol City","Cardiff","Coventry","Derby County","Huddersfield","Hull City","Luton Town","Middlesbrough","Millwall","Norwich City","Nottingham Forest","Peterborough Utd","Preston","QPR","Reading","Sheffield Utd","Stoke","Swansea","Watford","West Brom"]
+     var Teams: [String] = ["Birmingham","Blackburn","Blackpool","Bristol City","Cardiff","Coventry","Huddersfield","Hull City","Luton Town","Middlesbrough","Millwall","Norwich City","Nottingham Forest","Preston","QPR","Reading","Rotherham","Sheffield Utd","Stoke","Swansea","Watford","West Brom","Wigan"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -10,7 +10,7 @@ import UIKit
 
 class LeagueTwoTableViewController: UITableViewController {
 
-    var Teams: [String] = ["Barrow","Bradford City","Bristol Rovers","Carlisle Utd","Colchester Utd","Crawley Town","Exeter City","Forest Green Rovers","Harrogate Town","Hartlepool Utd","Leyton Orient","Mansfield Town","Newport County","Northampton Town","Oldham Athletic","Port Vale","Rochdale","Salford City","Scunthorpe Utd","Stevenage","Sutton Utd","Swindon Town","Tranmere Rovers","Walsall"]
+    var Teams: [String] = ["AFC Wimbledon","Barrow","Bradford City","Carlisle Utd","Colchester Utd","Crawley Town","Crewe Alexandra","Doncaster Rovers","Gillingham","Harrogate Town","Hartlepool Utd","Leyton Orient","Mansfield Town","Newport County","Northampton Town","Port Vale","Rochdale","Salford City","Stevenage","Stockport County","Sutton Utd","Swindon Town","Tranmere Rovers","Walsall"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
