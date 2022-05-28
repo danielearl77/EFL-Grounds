@@ -54,6 +54,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Bristol Temple Meads Station is too far to walk so taxi is the best bet from here.  After the game buses run from the ground back to the City Centre and the Station."
             teamDrinkInfo = "The Nova Scotia or the Pumphouse, both by the waterfront, are suitable for away fans. Another option is the Knights Templar which is straight ahead when coming out of Temple Meads Station.\n\nThe pubs near the ground are all best avoided by away fans, and alcohol is not available inside the stadium for away fans."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/bristol-city/scores-fixtures"
+        } else if teamName == "Burnley" {
+            stationCode = "BYM"
+            stadiumLat = 53.7884704
+            stadiumLon = -2.2303248
+            teamCarInfo = "Sat Nav Postcode: BB10 4BX\n\nFrom the M65 Junction 10 take the A679 towards Burnley. Turn right onto the B6240 (Trafalgar Street) and at the end of this road take the A682 (Centenary Way). At the next roundabout turn right into Yorkshire Street, which goes past the ground."
+            teamTrainInfo = "From Manchester Road Station turn right and walk down to the A682, cross over this road before the roundabout and then walk along Centenary Way to the next roundabout. From here turn right into Yorkshire Street and walk down to the ground."
+            teamDrinkInfo = "The best option is the Queen Victoria, which is past the Fire Station (walking away from the stadium). Another option is the Cricket Club, the clubhouse is open on match days and you can get food, drink and park there.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/burnley/scores-fixtures"
         } else if teamName == "Cardiff" {
             stationCode = "NNP"
             stadiumLat = 51.472830
@@ -174,6 +182,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Stoke Railway Station is over two miles away so a taxi is the best bet. There are also shuttle buses from Glebe Street in Stoke, to the ground before and after the game."
             teamDrinkInfo = "There aren't really any pubs near the stadium, so the bext option is drinking on the way into Stoke before the game. There is, however, a Holiday Inn and a Harvester pub next to the ground. There is also a Power League complex with a bar that admits away fans.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/stoke-city/scores-fixtures"
+        } else if teamName == "Sunderland" {
+            stationCode = "SUN"
+            stadiumLat = 54.9147354
+            stadiumLon = -1.3874242
+            teamCarInfo = "Sat Nav Postcode: SR5 1SU\n\nFrom the A19, turn of onto the A1231 (Wessington Way) towards Sunderland. Stay on the A1231 until it becomes Queen's Road (B1289) and then Keir Hardie Way. The ground is on the right. There is a football park and ride at Sunderland Enterprise Park (well signed from the A1231)."
+            teamTrainInfo = "Come out of Sunderland Train station and turn left, walk through the pedestrian area to Fawcett Street, turn left and follow this road up to the Wearmouth Bridge. Carry on up North Bridge Street and turn left into Millennium Way, the ground is then straight ahead."
+            teamDrinkInfo = "The 'William Jameson' in Sunderland town centre, and two social clubs (The Sunderland Companions Club & New Democratic Club) on North Bridge Stree all admit away fans.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sunderland/scores-fixtures"
         } else if teamName == "Swansea" {
             stationCode = "SWA"
             stadiumLat = 51.6421561
@@ -395,14 +411,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Shrewsbury Station is over 2 miles from the ground so taxi is the best option."
             teamDrinkInfo = "There are two pubs both about ten minutes walk from the ground, The Charles Darwin and The Brooklands Hotel. The Charles Darwin is right from the ground along Oteley Road, then second left into Sutton Road. The Brooklands Hotel is left from the ground along Oteley Road, left into Roman Road, and then left into Mill Street.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/shrewsbury-town/scores-fixtures"
-        } else if teamName == "Sunderland" {
-            stationCode = "SUN"
-            stadiumLat = 54.9147354
-            stadiumLon = -1.3874242
-            teamCarInfo = "Sat Nav Postcode: SR5 1SU\n\nFrom the A19, turn of onto the A1231 (Wessington Way) towards Sunderland. Stay on the A1231 until it becomes Queen's Road (B1289) and then Keir Hardie Way. The ground is on the right. There is a football park and ride at Sunderland Enterprise Park (well signed from the A1231)."
-            teamTrainInfo = "Come out of Sunderland Train station and turn left, walk through the pedestrian area to Fawcett Street, turn left and follow this road up to the Wearmouth Bridge. Carry on up North Bridge Street and turn left into Millennium Way, the ground is then straight ahead."
-            teamDrinkInfo = "The 'William Jameson' in Sunderland town centre, and two social clubs (The Sunderland Companions Club & New Democratic Club) on North Bridge Stree all admit away fans.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sunderland/scores-fixtures"
         } else if teamName == "Wycombe Wanderers" {
             stationCode = "HWY"
             stadiumLat = 51.6311336
