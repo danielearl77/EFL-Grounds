@@ -126,14 +126,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Norwich Station turn left and at the main road either turn left again and follow it round to the ground or cross the road and walk through the Riverside development to the ground."
             teamDrinkInfo = "The traditional away pub the 'Compleat Angler' no longer accepts away fans, however, the Prince of Wales Pub further up Prince of Wales Road does. There are also a number of pubs and restaurants in the Riverside development between the Railway Station and the ground, however, many of these do not now admit away fans.\n\nAlcohol is also available inside the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/norwich-city/scores-fixtures"
-        } else if teamName == "Nottingham Forest" {
-            stationCode = "NOT"
-            stadiumLat = 52.9394531
-            stadiumLon = -1.1331991
-            teamCarInfo = "Sat Nav Postcode: NG2 5FJ\n\nFrom the M1 Junction 24 take the A453 towards Nottingham. Just before the A52 junction turn off the A453 onto the B679 (Clifton Lane). Follow the B679 to the end and turn left onto the A60 (Loughborough Road). The ground is on the right just past the Cricket Ground."
-            teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south, over the river to the ground."
-            teamDrinkInfo = "The pubs near the ground are generally home fans only, with the Meadow Club (the Notts County Supporters Club) or the Nottingham Rowing Club the only places that admit away fans. Otherwise drink in the City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/nottingham-forest/scores-fixtures"
         } else if teamName == "Preston" {
             stationCode = "PRE"
             stadiumLat = 53.7722293
@@ -395,6 +387,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Fratton Station exit onto Goldsmith Avenue, walk past the station complex, go straight over the roundabout and take the next left into Frogmore Road for the ground.\n\n"
             teamDrinkInfo = "The Brewers Arms on the A288 is popular with away fans, but many of the other pubs near the ground are best avoided. Otherwise the best bet is to drink in Portsmouth City Centre."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/portsmouth/scores-fixtures"
+        } else if teamName == "Port Vale" {
+            stationCode = "SOT"
+            stadiumLat = 53.0503903
+            stadiumLon = -2.1916971
+            teamCarInfo = "Sat Nav Postcode: ST6 1AW\n\nLeave the M6 at Junction 16 (from the north) or Junction 15 (from the south) and join the A500. Stay on this road until the exit for Tunstall (A527). At the next roundabout turn right towards Burslem and follow this road uphill crossing a mini roundabout until you reach the traffic lights in the centre of the town. Go straight on and bear left into Hamil Road, the ground is on the left."
+            teamTrainInfo = "Stoke Station is over four miles from the ground so taxi is the easiest way to the ground."
+            teamDrinkInfo = "The main away fans pub is The Vine on Hamil Road. Otherwise the town centre is only about ten minutes away, with plenty of pubs fine for away fans."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/port-vale/scores-fixtures"
         } else if teamName == "Sheffield Wednesday" {
             stationCode = "SHF"
             stadiumLat = 53.4116501
@@ -552,14 +552,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Northampton Station and cross the car park to St Andrew's Road and turn right walking down to Black Lion Hill. Turn right onto Black Lion Hill, which becomes St James Road. After HSS Hire turn left into St James Mill Road, and then right into Harvey Reeves Road, which becomes Edgar Mobbs Way. Follow Edgar Mobbs Way to the ground."
             teamDrinkInfo = "There are a few options on the complex the stadium is based, although The Magic Tower and The Sixfields Tavern don't generally admit away fans."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/northampton-town/scores-fixtures"
-        } else if teamName == "Port Vale" {
-            stationCode = "SOT"
-            stadiumLat = 53.0503903
-            stadiumLon = -2.1916971
-            teamCarInfo = "Sat Nav Postcode: ST6 1AW\n\nLeave the M6 at Junction 16 (from the north) or Junction 15 (from the south) and join the A500. Stay on this road until the exit for Tunstall (A527). At the next roundabout turn right towards Burslem and follow this road uphill crossing a mini roundabout until you reach the traffic lights in the centre of the town. Go straight on and bear left into Hamil Road, the ground is on the left."
-            teamTrainInfo = "Stoke Station is over four miles from the ground so taxi is the easiest way to the ground."
-            teamDrinkInfo = "The main away fans pub is The Vine on Hamil Road. Otherwise the town centre is only about ten minutes away, with plenty of pubs fine for away fans."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/port-vale/scores-fixtures"
         } else if teamName == "Rochdale" {
             stationCode = "RCD"
             stadiumLat = 53.6191217
