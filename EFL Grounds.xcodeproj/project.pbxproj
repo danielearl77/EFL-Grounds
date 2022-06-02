@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14383FC828491C850044DE05 /* IAP Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14383FC728491C850044DE05 /* IAP Manager.swift */; };
+		14383FCA28491CAA0044DE05 /* SupportUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14383FC928491CAA0044DE05 /* SupportUsViewController.swift */; };
+		14383FCC28491E170044DE05 /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14383FCB28491E170044DE05 /* ProductIds.plist */; };
 		14C398D024FC0A50001F2DCA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C398CF24FC0A50001F2DCA /* StoreKit.framework */; };
 		52CCEA4E2124990200FE009B /* LeagueOneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCEA4D2124990200FE009B /* LeagueOneTableViewController.swift */; };
 		52CCEA5021249A8600FE009B /* LeagueTwoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCEA4F21249A8600FE009B /* LeagueTwoTableViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14383FC728491C850044DE05 /* IAP Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP Manager.swift"; sourceTree = "<group>"; };
+		14383FC928491CAA0044DE05 /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
+		14383FCB28491E170044DE05 /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
 		14C398CF24FC0A50001F2DCA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		52CCEA4D2124990200FE009B /* LeagueOneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOneTableViewController.swift; sourceTree = "<group>"; };
 		52CCEA4F21249A8600FE009B /* LeagueTwoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTwoTableViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +112,11 @@
 				52DBE2342121FCE4006B965C /* TeamViewController.swift */,
 				52DBE2322121FA3F006B965C /* ChampionshipTableViewController.swift */,
 				52DBE2272121F454006B965C /* Assets.xcassets */,
+				14383FCB28491E170044DE05 /* ProductIds.plist */,
 				52DBE2292121F454006B965C /* LaunchScreen.storyboard */,
 				52DBE22C2121F454006B965C /* Info.plist */,
+				14383FC728491C850044DE05 /* IAP Manager.swift */,
+				14383FC928491CAA0044DE05 /* SupportUsViewController.swift */,
 			);
 			path = "EFL Grounds";
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 				52DBE22B2121F454006B965C /* LaunchScreen.storyboard in Resources */,
 				52DBE2282121F454006B965C /* Assets.xcassets in Resources */,
 				52DBE2262121F453006B965C /* Main.storyboard in Resources */,
+				14383FCC28491E170044DE05 /* ProductIds.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,12 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14383FCA28491CAA0044DE05 /* SupportUsViewController.swift in Sources */,
 				52DBE2232121F453006B965C /* ViewController.swift in Sources */,
 				52CCEA5021249A8600FE009B /* LeagueTwoTableViewController.swift in Sources */,
 				52CCEA5621249F7D00FE009B /* TeamFixturesViewController.swift in Sources */,
 				52CCEA5421249F7400FE009B /* TeamMapViewController.swift in Sources */,
 				52CCEA5821249F8700FE009B /* TeamTrainsViewController.swift in Sources */,
 				52CCEA5221249F6A00FE009B /* TeamInfoViewController.swift in Sources */,
+				14383FC828491C850044DE05 /* IAP Manager.swift in Sources */,
 				52DBE2352121FCE4006B965C /* TeamViewController.swift in Sources */,
 				52DBE2212121F453006B965C /* AppDelegate.swift in Sources */,
 				52DBE2332121FA3F006B965C /* ChampionshipTableViewController.swift in Sources */,
@@ -354,7 +366,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1;
+				MARKETING_VERSION = 7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.FL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -384,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1;
+				MARKETING_VERSION = 7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.FL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

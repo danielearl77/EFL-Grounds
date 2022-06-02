@@ -11,13 +11,27 @@ import StoreKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var SupportUsBtn: UIButton!
+    
+    
     override func viewDidLoad() {
+        showSupportUsButton()
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        showSupportUsButton()
         showAppReviewPopover()
+    }
+    
+    func showSupportUsButton() {
+        let hasSupported = UserDefaults.standard.bool(forKey: "userHasSupported")
+        if(!hasSupported) {
+            SupportUsBtn.isHidden = false
+        } else {
+            SupportUsBtn.isHidden = true
+        }
     }
 
     override func didReceiveMemoryWarning() {
