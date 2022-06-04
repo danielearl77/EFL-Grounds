@@ -54,7 +54,10 @@ class ViewController: UIViewController {
      
         // Has the process been completed several times and the user has not already been prompted for this version?
         if count >= 15 && currentVersion != lastVersionPromptedForReview {
-            SKStoreReviewController.requestReview()
+            //SKStoreReviewController.requestReview()
+            if let scene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                SKStoreReviewController.requestReview(in: scene)
+            }
             UserDefaults.standard.set(currentVersion, forKey: "lastVersionPromptedForReview")
         }
     }

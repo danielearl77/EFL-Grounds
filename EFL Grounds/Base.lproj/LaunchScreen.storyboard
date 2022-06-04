@@ -21,9 +21,8 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOADING..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDf-zE-pPu">
-                                <rect key="frame" x="144" y="395.66666666666669" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDf-zE-pPu">
+                                <rect key="frame" x="144" y="396" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -46,6 +45,8 @@
                             <constraint firstItem="bmQ-MH-aVo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YBQ-IE-wlo"/>
                             <constraint firstItem="lQ8-d2-UZ3" firstAttribute="top" secondItem="bmQ-MH-aVo" secondAttribute="bottom" id="cN8-BM-rJY"/>
                             <constraint firstItem="lQ8-d2-UZ3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ds1-wa-Rn9"/>
+                            <constraint firstItem="bDf-zE-pPu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hOp-HC-4xd"/>
+                            <constraint firstItem="bDf-zE-pPu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vHV-3U-52O"/>
                         </constraints>
                     </view>
                 </viewController>
