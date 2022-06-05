@@ -504,6 +504,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Gillingham Station, turn left into Balmoral Road. At the end of the road go straight over into Priestfield Road, the ground is at the top Priestfield Road."
             teamDrinkInfo = "The traditional away pub is the Livingstone Arms, on Gillingham Road close to the away end. Otherwise there are plenty of pubs in the town centre, which is only a short walk from the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/gillingham/scores-fixtures"
+        } else if teamName == "Grimsby Town" {
+            stationCode = "CLE"
+            stadiumLat = 53.570247
+            stadiumLon = -0.046709
+            teamCarInfo = "Sat Nav Postcode: DN35 7PY\n\nFrom the North take the M180 to Grimsby, and continue onto the A180, once in Grimsby stay on the A180 and follow the signs to Cleethorpes. When you reach the Blundell Park Hotel turn left into Imperial Avenue for the ground.\n\nFrom the south take the A1 North and exit  onto the A46 to Lincoln and onto Grimsby. Stay on the A46 until it becomes Clee Road and at the roundabout turn left onto the A180. Continue on the A180 until you reach the Blundell Park Hotel and then turn right into Imperial Avenue for the ground.\n\nThere is plenty of on street parking in the area."
+            teamTrainInfo = "Take the train to Cleethorpes and exit the station facing the sea. Turing left, walk along the seafront and just before you reach the ground there is a footbridge over the railway line, once over the railway turn right into Harrington Street and then left into Neville Street for the ground."
+            teamDrinkInfo = "The Blundell Park Hotel is the closest pub to the ground. There are also a number of pubs along the seafront if you are walking from Cleethorpes railway station."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/grimsby-town/scores-fixtures"
         } else if teamName == "Harrogate Town" {
             stationCode = "HGT"
             stadiumLat = 53.99173
