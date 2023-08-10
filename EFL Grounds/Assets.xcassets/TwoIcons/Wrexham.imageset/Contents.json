@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Burnley.png",
+      "filename" : "Wrexham.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Wrexham@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Wrexham@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
