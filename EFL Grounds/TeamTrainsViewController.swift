@@ -13,63 +13,77 @@ class TeamTrainsViewController: UIViewController, WKUIDelegate, WKNavigationDele
 
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var backButtonSetting: UIButton!
-    @IBOutlet weak var loadingText: UILabel!
+    @IBOutlet weak var errorMsg: UILabel!
     @IBOutlet weak var loadingSpinner: UIActivityIndicatorView!
     
     func loadStationData() {
-        loadingText.text = "Loading Train Times"
+        errorMsg.isHidden = true
+        loadingSpinner.startAnimating()
+        loadingSpinner.isHidden = false
         let station = (parent as! TeamViewController).stationCode
-        var stationURL = "http://m.nationalrail.co.uk/pj/ldbboard/dep/"
-        stationURL.append(station)
-        let myURL = URL(string: stationURL)
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
+        if station == "XXX" {
+            loadingSpinner.stopAnimating()
+            loadingSpinner.isHidden = true
+            errorMsg.text = "This ground is not close to any National Rail Station. Please check the public transport section for other options."
+            errorMsg.isHidden = false
+        } else {
+            var stationURL = "http://m.nationalrail.co.uk/pj/ldbboard/dep/"
+            stationURL.append(station)
+            let myURL = URL(string: stationURL)
+            let myRequest = URLRequest(url: myURL!)
+            webView.load(myRequest)
+        }
     }
     
-    override func viewDidLoad() {
-        backButtonSetting.isEnabled = false
-        webView.navigationDelegate = self
-        loadStationData()   
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        loadingText.isHidden = true
+        loadingSpinner.stopAnimating()
         loadingSpinner.isHidden = true
+        errorMsg.isHidden = true
         let allowBack = webView.canGoBack
         if allowBack == true {
-            backButtonSetting.isEnabled = true
+            backButtonSetting.isHidden = false
         } else {
-            backButtonSetting.isEnabled = false
+            backButtonSetting.isHidden = true
         }
     }
     
     func webView(_ webView: WKWebView,
-                 didFailProvisionalNavigation navigation: WKNavigation!,
-                 withError error: Error) {
+                          didFailProvisionalNavigation navigation: WKNavigation!,
+                          withError error: Error) {
         if(error._code == NSURLErrorNotConnectedToInternet) {
+            NSLog("No Internet Connection")
+            loadingSpinner.stopAnimating()
             loadingSpinner.isHidden = true
-            loadingText.text = "ERROR: No Internet Connction"
+            errorMsg.text = "ERROR: No Internet Connection"
+            errorMsg.isHidden = false
         }
-        print("Error Loading:")
+        errorMsg.text = "ERROR: Unable to load page"
+        errorMsg.isHidden = false
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        NSLog("Error Loading:")
         print(error._code)
     }
     
     func webView(_ webView: WKWebView,
                  didFail navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading: Navigation Error")
+        loadingSpinner.stopAnimating()
+        loadingSpinner.isHidden = true
+        errorMsg.text = "ERROR: Unable to load page"
+        errorMsg.isHidden = false
+        NSLog("Error Loading: Navigation Error")
         print(error._code)
     }
-    
-    
+   
     @IBAction func backButton(_ sender: Any) {
             webView.goBack()
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidLoad() {
+        webView.navigationDelegate = self
+        super.viewDidLoad()
+        loadStationData()
+        // Do any additional setup after loading the view.
     }
 }
