@@ -21,6 +21,8 @@ class TeamViewController: UITabBarController {
     var teamFixtures = ""
     var teamStadiumName = ""
     
+    /*
+    
     // MARK: Championship Team Data
     func loadChampTeamData() {
         if teamName == "Birmingham" {
@@ -86,15 +88,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Hull Station take the southern exit onto Anlaby Road, tun right and follow Anlaby Road to the Ground."
             teamDrinkInfo = "Either drink in the City Centre before heading to the ground or try 'The Brickmakers' which is opposite the main stadium car park. The Walton Street Social Club also admits away fans.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/hull-city/scores-fixtures"
-        } else if teamName == "Ipswich" {
-            stationCode = "IPS"
-            stadiumLat = 52.0542255
-            stadiumLon = 1.1447102
-            teamStadiumName = "Portman Road"
-            teamCarInfo = "Sat Nav Postcode: IP1 2DA\n\nFrom the A12 / A14 Junction take the A1214 (London Road) towards Ipswich, follow this road into Ipswich and after crossing the river turn right into West End Road.  Follow West End Road to Princes Street and turn left, following Princes Street into Portman Road for the ground."
-            teamTrainInfo = "From Ipswich Station you can see the ground, cross over the river and follow the road to the ground."
-            teamDrinkInfo = "The Station Hotel, by the railway station, is the main away pub, with the Punch and Judy on Cardinal Park another option.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/ipswich-town/scores-fixtures"
         } else if teamName == "Leeds Utd" {
             stationCode = "LDS"
             stadiumLat = 53.7771779
@@ -710,18 +703,20 @@ class TeamViewController: UITabBarController {
             teamFixtures = "https://www.bbc.co.uk/sport/football/"
         }
     }
+     
+    */
     
     override func viewDidLoad() {
         navigationItem.title = teamName
-        if league == "champ" {
-            loadChampTeamData()
-        }
-        if league == "one" {
-            loadOneTeamData()
-        }
-        if league == "two" {
-            loadTwoTeamData()
-        }
+        let selectedTeamData = TeamDetails.shared.loadTeamDetails(team: teamName)
+        stationCode = selectedTeamData.stationCode
+        stadiumLat = selectedTeamData.stadiumLat
+        stadiumLon = selectedTeamData.stadiumLon
+        teamCarInfo = selectedTeamData.teamCarInfo
+        teamTrainInfo = selectedTeamData.teamTrainInfo
+        teamDrinkInfo = selectedTeamData.teamDrinkInfo
+        teamFixtures = selectedTeamData.teamFixtures
+        teamStadiumName = selectedTeamData.teamStadiumName
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
