@@ -144,6 +144,16 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "The closest pub to the ground is The Queen Victoria, five minutes away on Gloucester Road. Alternatively The Annexe is about ten minutes away on Nevil Road.  Both pubs should admit away fans."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/bristol-rovers/scores-fixtures"
         }
+        else if team == "Bromley" {
+            stationCode = "BMS"
+            stadiumLat = 51.39031
+            stadiumLon = 0.02117
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: BR2 9EF\n\nLeave the M25 at Junction 4 and take the A21 north towards Bromley and London. After five miles turn left onto the A232 towards Croydon and Sutton. At the 2nd set of lights turn right into Baston Road. Continue straight on this road until it becomes Hayes Lane, after the mini roundabout the entrance to the ground is down on the right."
+            teamTrainInfo = "Exit Bromley South Station, turn left, and walk down the High Street. Turn right into Westmoreland Road and after passing a church on your left, turn left into Hayes Road. Walk down Hayes Road until your each its end and turn right into Hayes Lane. The entrance to the ground is up Hayes Lane on the left. You can also get the 119 Bus from the station right past the ground."
+            teamDrinkInfo = "There is a Social Club at the ground, serving food and drink. Away fans can use this unless segregation is in force, in that case a small temporary bar is set up for away fans. the closest pub to the ground is a 15-minute walk away on Masons Hill. There is also a Wetherspoons near Bromley South Railway Station."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/bromley/scores-fixtures"
+        }
         else if team == "Burton Albion" {
             stationCode = "BUT"
             stadiumLat = 52.821462
@@ -203,6 +213,16 @@ class TeamDetails: NSObject {
             teamTrainInfo = "Cheltenham Station is over 2 miles away so taxi is the easiest way of getting to the ground."
             teamDrinkInfo = "The best options for away fans are the Sudeley Arms or The Conservatory, both about a ten minute walk away on Prestbury Road."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/cheltenham-town/scores-fixtures"
+        }
+        else if team == "Chesterfield" {
+            stationCode = "CHD"
+            stadiumLat = 53.25222
+            stadiumLon = -1.42591
+            teamStadiumName = ""
+            teamCarInfo = "Sat Nav Postcode: S41 8NZ\n\nLeave the M1 at Junction 29 and take the A617 towards Chesterfield.  At the end of the dual carriageway turn right onto the A61 towards Sheffield.  At the first roundabout turn left, the stadium is on the right."
+            teamTrainInfo = "Exit Chesterfield Station and turn left.  Take the road to the right-hand side of the Chesterfield Hotel and carry on over the mini roundabout, into Brewery Street, continue over the A61 Inner Relief Road and at the end of Brewery Street turn right and then right at the mini roundabout into Sheffield Road. Follow Sheffield Road up to the ground."
+            teamDrinkInfo = "Closest to the ground, on Sheffield Road, is the Derby Tup.  However, a better option is the Rutland Arms on Stephenson Place (right next to the church with the crooked spire)."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/chesterfield/scores-fixtures"
         }
         else if team == "Colchester United" {
             stationCode = "COL"
