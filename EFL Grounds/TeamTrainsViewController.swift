@@ -24,7 +24,7 @@ class TeamTrainsViewController: UIViewController, WKUIDelegate, WKNavigationDele
         if station == "XXX" {
             loadingSpinner.stopAnimating()
             loadingSpinner.isHidden = true
-            errorMsg.text = "This ground is not close to any National Rail Station. Please check the public transport section for other options."
+            errorMsg.text = "This ground is not close\nto any National Rail Station.\nPlease check the public\ntransport section for other options."
             errorMsg.isHidden = false
         } else {
             var stationURL = "http://m.nationalrail.co.uk/pj/ldbboard/dep/"
