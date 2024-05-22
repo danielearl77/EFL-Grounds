@@ -148,11 +148,21 @@ class TeamDetails: NSObject {
             stationCode = "BMS"
             stadiumLat = 51.39031
             stadiumLon = 0.02117
-            teamStadiumName = ""
+            teamStadiumName = "Hayes Lane Stadium"
             teamCarInfo = "Sat Nav Postcode: BR2 9EF\n\nLeave the M25 at Junction 4 and take the A21 north towards Bromley and London. After five miles turn left onto the A232 towards Croydon and Sutton. At the 2nd set of lights turn right into Baston Road. Continue straight on this road until it becomes Hayes Lane, after the mini roundabout the entrance to the ground is down on the right."
             teamTrainInfo = "Exit Bromley South Station, turn left, and walk down the High Street. Turn right into Westmoreland Road and after passing a church on your left, turn left into Hayes Road. Walk down Hayes Road until your each its end and turn right into Hayes Lane. The entrance to the ground is up Hayes Lane on the left. You can also get the 119 Bus from the station right past the ground."
             teamDrinkInfo = "There is a Social Club at the ground, serving food and drink. Away fans can use this unless segregation is in force, in that case a small temporary bar is set up for away fans. the closest pub to the ground is a 15-minute walk away on Masons Hill. There is also a Wetherspoons near Bromley South Railway Station."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/bromley/scores-fixtures"
+        } 
+        else if team == "Burnley" {
+            stationCode = "BYM"
+            stadiumLat = 53.7884704
+            stadiumLon = -2.2303248
+            teamStadiumName = "Turf Moor"
+            teamCarInfo = "Sat Nav Postcode: BB10 4BX\n\nFrom the M65 Junction 10 take the A679 towards Burnley. Turn right onto the B6240 (Trafalgar Street) and at the end of this road take the A682 (Centenary Way). At the next roundabout turn right into Yorkshire Street, which goes past the ground."
+            teamTrainInfo = "From Manchester Road Station turn right and walk down to the A682, cross over this road before the roundabout and then walk along Centenary Way to the next roundabout. From here turn right into Yorkshire Street and walk down to the ground."
+            teamDrinkInfo = "The best option is the Queen Victoria, which is past the Fire Station (walking away from the stadium). Another option is the Cricket Club, the clubhouse is open on match days and you can get food, drink and park there.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/burnley/scores-fixtures"
         }
         else if team == "Burton Albion" {
             stationCode = "BUT"
@@ -218,7 +228,7 @@ class TeamDetails: NSObject {
             stationCode = "CHD"
             stadiumLat = 53.25222
             stadiumLon = -1.42591
-            teamStadiumName = ""
+            teamStadiumName = "SMH Group Stadium"
             teamCarInfo = "Sat Nav Postcode: S41 8NZ\n\nLeave the M1 at Junction 29 and take the A617 towards Chesterfield.  At the end of the dual carriageway turn right onto the A61 towards Sheffield.  At the first roundabout turn left, the stadium is on the right."
             teamTrainInfo = "Exit Chesterfield Station and turn left.  Take the road to the right-hand side of the Chesterfield Hotel and carry on over the mini roundabout, into Brewery Street, continue over the A61 Inner Relief Road and at the end of Brewery Street turn right and then right at the mini roundabout into Sheffield Road. Follow Sheffield Road up to the ground."
             teamDrinkInfo = "Closest to the ground, on Sheffield Road, is the Derby Tup.  However, a better option is the Rutland Arms on Stephenson Place (right next to the church with the crooked spire)."
@@ -383,6 +393,16 @@ class TeamDetails: NSObject {
             teamTrainInfo = "Exit Lincoln Central Station and turn left, then left again at the main road (High Street). Go over the level crossing and walk down the High Street, take the seventh turning onto Scorer Street and then the first right into Sincil Bank for the ground."
             teamDrinkInfo = "The are plenty of pubs and food outlets on Lincoln High Street with the Golden Eagle and the Hop and Barley good bets. There are also plenty of options at the Lincoln Marina development not far from the Railway Station."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/lincoln-city/scores-fixtures"
+        }
+        else if team == "Luton Town" {
+            stationCode = "LUT"
+            stadiumLat = 51.8841800
+            stadiumLon = -0.4316600
+            teamStadiumName = "Kenilworth Road"
+            teamCarInfo = "Sat Nav Postcode: LU4 8AW\n\nLeave the M1 at Junction 11 and take the Dunstable Road towards Luton Town Centre. At the next roundabout continue straight on, following Dunstable Road until the junction with Leagrave Road. After the Leagrave Road junction take the third right into Kenilworth Road for the ground."
+            teamTrainInfo = "Exit Luton Railway station and turn right along Station Road, continuing into Mill Street. At the end of Mill Street turn left into New Bedford Road, then turn right into Collingdon Street. At the end of Collingdon Street take the footbridge over the roundabout, and where it splits in two bear right down into Dunstable Road. Continue straight along Dunstable Road and the ground is on the left, down either Kenilworth Road, or for the away end Oak Road."
+            teamDrinkInfo = "There isn't really anything suitable for away fans near the ground. The better option is to drink in the town centre before heading to the ground.\n\nAlcohol is not available in the away end."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/luton-town/scores-fixtures"
         }
         else if team == "Mansfield Town" {
             stationCode = "MFT"
@@ -573,6 +593,16 @@ class TeamDetails: NSObject {
             teamTrainInfo = "Salford is not great to get to by train.  The closest stations are around three miles away. The best bet is to take the train to Manchester and then get a Taxi or the Bus (97 or 98) from the City Centre. The 97 or 98 Bus to Bury stops at the end of Moor Lane, for a short walk to the ground."
             teamDrinkInfo = "The Fairways Lodge on George Street in Prestwich is the closest pub, with not many other options near the ground."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/salford-city/scores-fixtures"
+        }
+        else if team == "Sheffield United" {
+            stationCode = "SHF"
+            stadiumLat = 53.3698603
+            stadiumLon = -1.4705122
+            teamStadiumName = "Bramall Lane"
+            teamCarInfo = "Sat Nav Postcode: S2 4SU\n\nFrom the M1 Junction 33 take the A630 / A57 (Sheffield Parkway) towards Sheffield. At the large roundabout take the A621 (Commercial Street) and follow this road over two roundabouts into Bramall Lane.  The ground is then on the left off Bramall Lane."
+            teamTrainInfo = "From Sheffield Station turn left down Sheaf Square and at the junction bear right down Shoreham Street. Follow Shoreham Street down to the ground."
+            teamDrinkInfo = "A lot of the pubs near the ground are for home fans only, however, The Earl on Queens Road admits away fans. Otherwise there is the Globe near the railway station or the Sheffield Tup at the railway station.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sheffield-united/scores-fixtures"
         }
         else if team == "Sheffield Wednesday" {
             stationCode = "SHF"

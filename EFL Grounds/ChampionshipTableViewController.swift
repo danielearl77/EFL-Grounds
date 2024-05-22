@@ -10,13 +10,10 @@ import UIKit
 
 class ChampionshipTableViewController: UITableViewController {
 
-     var Teams: [String] = ["Blackburn Rovers","Bristol City","Cardiff City","Coventry City","Derby County","Hull City","Leeds United","Middlesbrough","Millwall","Norwich City","Plymouth Argyle","Portsmouth","Preston North End","Queens Park Rangers","Sheffield Wednesday","Southampton","Stoke City","Sunderland","Swansea City","Watford","West Bromwich Albion"]
-    
-    /**
-     P -
-     */
-    
+     var Teams: [String] = ["Blackburn Rovers","Bristol City","Burnley","Cardiff City","Coventry City","Derby County","Hull City","Leeds United","Luton Town","Middlesbrough","Millwall","Norwich City","Oxford United","Plymouth Argyle","Portsmouth","Preston North End","Queens Park Rangers","Sheffield United","Sheffield Wednesday","Southampton","Stoke City","Sunderland","Swansea City","Watford","West Bromwich Albion"]
+        
     override func viewDidLoad() {
+        print(Teams.count)
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
