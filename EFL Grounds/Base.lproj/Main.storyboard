@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vzK-Oc-lqU">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -446,7 +446,7 @@
         <!--About EFL Ground Guide-->
         <scene sceneID="DvM-yG-rUF">
             <objects>
-                <viewController title="About EFL Ground Guide" id="E0K-WI-cCp" sceneMemberID="viewController">
+                <viewController title="About EFL Ground Guide" id="E0K-WI-cCp" customClass="AboutViewController" customModule="EFL_Grounds" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqA-La-lqO">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -454,24 +454,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0s-0l-dyp">
                                 <rect key="frame" x="20" y="251" width="388" height="621"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">This app aims to provide travel information for fans travelling to Football League matches.    
-All directions given in this app are taken from either maps or personal experience.  The map view works in exactly the same way as the built-in map app on the iPhone, showing current location and allowing you to zoom in and out.  
-
-Please contact us if you think the directions are wrong or can provide clearer routes to the grounds.
-
-Please note that the pub recommendations are just that, and we cannot be held responsible should any become home fans pubs without warning.  If you have a good pub suggestion please contact us and we’ll add it to the next update of the app.
-
-The fixtures are linked from www.bbc.co.uk/football, and the train information is linked from www.nationalrail.co.uk
-
-This app will be updated to take into account promotion and relegation at the end of each season.
-This app is not affiliated with the FA, The Football League or its clubs.  No club has provided any information for this app.
-
-For more information see our website 
-www.phone-app.co.uk
-
-To get in touch please use the contact form on the website.
-
-© 2012-2023.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -523,6 +505,9 @@ A fan travel guide to all 72 EFL grounds.</string>
                             <constraint firstItem="yAl-IR-xL0" firstAttribute="top" secondItem="GZh-Xc-3g5" secondAttribute="bottom" constant="30" id="wdU-fx-Srj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="aboutTextView" destination="V0s-0l-dyp" id="E2l-dG-sfg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaM-pa-f8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -670,10 +655,10 @@ Please note this is just a digital tip no extra functionality will be unlocked, 
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

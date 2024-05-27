@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1431CD202C0483150095501B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431CD1F2C0483150095501B /* AboutViewController.swift */; };
 		14383FC828491C850044DE05 /* IAP Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14383FC728491C850044DE05 /* IAP Manager.swift */; };
 		14383FCA28491CAA0044DE05 /* SupportUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14383FC928491CAA0044DE05 /* SupportUsViewController.swift */; };
 		14383FCC28491E170044DE05 /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14383FCB28491E170044DE05 /* ProductIds.plist */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1431CD1F2C0483150095501B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		14383FC728491C850044DE05 /* IAP Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP Manager.swift"; sourceTree = "<group>"; };
 		14383FC928491CAA0044DE05 /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
 		14383FCB28491E170044DE05 /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				52DBE2202121F453006B965C /* AppDelegate.swift */,
 				52DBE2222121F453006B965C /* ViewController.swift */,
 				52DBE2242121F453006B965C /* Main.storyboard */,
+				1431CD1F2C0483150095501B /* AboutViewController.swift */,
 				52CCEA5121249F6A00FE009B /* TeamInfoViewController.swift */,
 				52CCEA5321249F7400FE009B /* TeamMapViewController.swift */,
 				52CCEA5521249F7D00FE009B /* TeamFixturesViewController.swift */,
@@ -208,6 +211,7 @@
 				52CCEA5221249F6A00FE009B /* TeamInfoViewController.swift in Sources */,
 				14383FC828491C850044DE05 /* IAP Manager.swift in Sources */,
 				52DBE2352121FCE4006B965C /* TeamViewController.swift in Sources */,
+				1431CD202C0483150095501B /* AboutViewController.swift in Sources */,
 				52DBE2212121F453006B965C /* AppDelegate.swift in Sources */,
 				52DBE2332121FA3F006B965C /* ChampionshipTableViewController.swift in Sources */,
 				52CCEA4E2124990200FE009B /* LeagueOneTableViewController.swift in Sources */,
