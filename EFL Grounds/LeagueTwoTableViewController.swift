@@ -13,7 +13,7 @@ class LeagueTwoTableViewController: UITableViewController {
     var Teams: [String] = ["AFC Wimbledon","Accrington Stanley","Barrow","Bradford City","Bromley","Carlisle United","Cheltenham Town","Chesterfield","Colchester United","Crewe Alexandra","Doncaster Rovers","Fleetwood Town","Gillingham","Grimsby Town","Harrogate Town","MK Dons","Morecambe","Newport County","Notts County","Port Vale","Salford City","Swindon Town","Tranmere Rovers","Walsall"]
     
     override func viewDidLoad() {
-        print(Teams.count)
+        //print(Teams.count)
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

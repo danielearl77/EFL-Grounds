@@ -13,7 +13,7 @@ class LeagueOneTableViewController: UITableViewController {
     var Teams: [String] = ["Barnsley","Birmingham City","Blackpool","Bolton Wanderers","Bristol Rovers","Burton Albion","Cambridge United","Charlton Athletic","Crawley Town","Exeter City","Huddersfield Town","Leyton Orient","Lincoln City","Mansfield Town","Northampton Town","Peterborough United","Reading","Rotherham United","Shrewsbury Town","Stevenage","Stockport County","Wigan Athletic","Wrexham","Wycombe Wanderers"]
     
     override func viewDidLoad() {
-        print(Teams.count)
+        //print(Teams.count)
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

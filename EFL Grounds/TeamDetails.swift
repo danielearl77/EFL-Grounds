@@ -68,7 +68,7 @@ class TeamDetails: NSObject {
             stationCode = "BIF"
             stadiumLat = 54.12330
             stadiumLon = -3.23494
-            teamStadiumName = "The Dunes Hotel Stadium"
+            teamStadiumName = "SO Legal Stadium"
             teamCarInfo = "Sat Nav Postcode: LA14 5UW\n\nLeave the M6 at Junction 36 and take the A590 towards Barrow-in-Furness. As you enter Barrow you pass a Fire Station on the right. Turn left into Wilkie Road and then right into Holker Street for the ground. There is plenty of street parking near the ground."
             teamTrainInfo = "Exit Barrow-in-Furness Station and follow the small station entrance road onto Holker Street.  The ground is around a mile away further up Holker Street."
             teamDrinkInfo = "Barrow has a Club House bar called Crossbar, which is open to away supporters. There is also a pub, Soccer Bar, right next to the ground. Further afield if you go along the A590 towards the Town Centre there is a Hungry Horse chain pub and a retail park with several chain fast food outlets."
@@ -78,7 +78,7 @@ class TeamDetails: NSObject {
             stationCode = "BHM"
             stadiumLat = 52.474486
             stadiumLon = -1.866873
-            teamStadiumName = "St Andrews"
+            teamStadiumName = "St. Andrew's @ Knighthead Park"
             teamCarInfo = "Sat Nav Postcode: B9 4RL\n\nLeave the M6 at Junction 6 and take the A38(M) towards Birmingham City Centre. Turn of the A38(M) onto the Inner Ring Road and take the Ring Road East, towards Coventry, after about 2 miles turn left into Coventry Road. The ground is well sign posted on the Inner Ring Road.\n\nDo not park on the street in any of the industrial estates near to the ground. Several cars were stripped for parts during matches last season."
             teamTrainInfo = "New Street Station is about a 30 min walk away. Come out of the station and head towards the Bullring and Digbeth Coach Station. When you reach coach station walk along the dual carriageway (B4100) away from the city, bear left onto Coventry Road (under the railway bridge) and the ground should be visible from here."
             teamDrinkInfo = "It is best to drink in the City Centre before heading to the stadium as most of the pubs near the ground are really for home fans only. The Brighton pub on Coventry Road does permit small groups of away fans.\n\nAlcohol is also available inside the stadium."
@@ -108,7 +108,7 @@ class TeamDetails: NSObject {
             stationCode = "HWI"
             stadiumLat = 53.5807096
             stadiumLon = -2.5366891
-            teamStadiumName = "University of Bolton Stadium"
+            teamStadiumName = "Toughsheet Community Stadium"
             teamCarInfo = "Sat Nav Postcode: BL6 6JW\n\nLeave the M61 at Junction 6 and follow the signs to the ground. The ground is clearly visible when you come off the M61."
             teamTrainInfo = "Horwich Parkway Station is served by regular trains from Bolton, the ground is clearly visible from the station."
             teamDrinkInfo = "Most of the pubs on the retail park near the ground are for home fans only, with the exception of the Beehive Pub. As an alternative about a 10 minute walk from the ground there is the Bromilow Arms. Drive past the ground on the A6027 and turn right into Lostock Lane for the pub.\n\nAlcohol is also available inside the stadium."
@@ -118,7 +118,7 @@ class TeamDetails: NSObject {
             stationCode = "BDI"
             stadiumLat = 53.8035782
             stadiumLon = -1.7594818
-            teamStadiumName = "Utilita Energy Stadium"
+            teamStadiumName = "University of Bradford Stadium"
             teamCarInfo = "Sat Nav Postcode: BD8 7DY\n\nTake the M606 towards Bradford and at end of motorway take the middle or right hand lane, follow signs for Ring Road East onto Rooley Lane. Head over the traffic lights by Asda and turn left at the roundabout into Wakefield Road. Go over two roundabouts on to the A6037 (Shipley Airedale Road). After the Tesco store on the left go over traffic lights and turn left into the A6177 (Station Road) and left again into Queens Road. Head up the hill to third set of traffic lights and turn left into Manningham Lane. After the Petrol Station on the left take first left into Valley Parade for the ground."
             teamTrainInfo = "Exit Bradford Interchange Station and head onto Bridge St. Cross over Hall Ings, staying on Bridge Street, turning right into Tyrrel Street and then left into Bank Street. Continue straight on into Darley Street and then North Parade. At the end turn right into Hamm Strasse and then left into Midland Road. Follow Midland Road up to the ground."
             teamDrinkInfo = "The Bradford Arms on Manningham Lane admits away fans.\n\nAlcohol is also available inside the stadium."
@@ -218,7 +218,7 @@ class TeamDetails: NSObject {
             stationCode = "CNM"
             stadiumLat = 51.9055762
             stadiumLon = -2.0620928
-            teamStadiumName = "Jonny-Rocks Stadium"
+            teamStadiumName = "The Completely-Suzuki Stadium"
             teamCarInfo = "Sat Nav Postcode: GL52 5NA\n\nLeave the M5 at junction 10 and take the A4019 towards Cheltenham. Keep straight on through the traffic lights, and at the large roundabout turn left. Continue up this road going over a double mini roundabout. After about 300 yards turn right into Swindon Lane. Go over the level crossing and the next roundabout, passing the race course. Turn right into Albert Road and at the roundabout turn left into Prestbury Road. Then turn right into Whaddon Road for the ground."
             teamTrainInfo = "Cheltenham Station is over 2 miles away so taxi is the easiest way of getting to the ground."
             teamDrinkInfo = "The best options for away fans are the Sudeley Arms or The Conservatory, both about a ten minute walk away on Prestbury Road."
@@ -258,7 +258,7 @@ class TeamDetails: NSObject {
             stationCode = "CRW"
             stadiumLat = 51.099568
             stadiumLon = -0.1953945
-            teamStadiumName = "Peoples Pension Stadium"
+            teamStadiumName = "Broadfield Stadium"
             teamCarInfo = "Sat Nav Postcode: RH11 9RX\n\nLeave the M23 at Junction 11 and take the A23 towards Crawley. Once on the A23 at the next roundabout take the first left onto Coachmans Drive for the ground."
             teamTrainInfo = "Crawley Station is a half hour walk away. Exit the station onto Station Way and at the end turn left onto Brighton Road. After half a mile turn left onto Southgate Drive and then right onto Barrington Road. Next turn right onto Wakehurst Drive and then left into Tyler Road. At the end turn right onto Southgate Avenue. Walk down Southgate Avenue to the roundabout for the ground."
             teamDrinkInfo = "The closest pub to the ground is the Half Moon, on Brighton Road about five minutes walk from the ground. Alternatively further down Brighton Road, into Wakehurst Drive is the Downsman."
@@ -268,7 +268,7 @@ class TeamDetails: NSObject {
             stationCode = "CRE"
             stadiumLat = 53.0879308
             stadiumLon = -2.4361022
-            teamStadiumName = "Alexandra Stadium"
+            teamStadiumName = "The Mornflake Stadium"
             teamCarInfo = "Sat Nav Postcode: CW2 6EB\n\nLeave the M6 at Junction 16 and take the A5020 towards Crewe. Once in Crewe, at the roundabout junction with the A534 (Nantwich Road) turn left. Once past the Station turn left into Gresty Road for the ground."
             teamTrainInfo = "Exit Crewe Station and turn left, then take the first left into Gresty Road for the ground."
             teamDrinkInfo = "The best option is the Royal Hotel on Nantwich Road, which has separate bars for home and away fans. There are several other pubs on Nantwich Road."
@@ -288,7 +288,7 @@ class TeamDetails: NSObject {
             stationCode = "DON"
             stadiumLat = 53.5097718
             stadiumLon = -1.1129534
-            teamStadiumName = "Keepmoat Stadium"
+            teamStadiumName = "Eco-Power Stadium"
             teamCarInfo = "Sat Nav Postcode: DN4 5JW\n\nFrom the M18 Junction 3 take the A6182 (White Rose Way) towards Doncaster, go straight over the next two roundabouts into Wilmington Drive. At the next roundabout turn left and follow this road to the ground."
             teamTrainInfo = "From Doncaster Station the easiest way to the ground is by Shuttle bus from Doncaster Interchange bus station or taxi. To walk come out of the station onto Trafford Way, turn left and keep walking down this road until you reach the Keepmoat Complex."
             teamDrinkInfo = "Really the only choice near the ground is 'The Lakeside' Beefeater pub on Stadium Way or 'The Toad Brewery' also on Stadium Way.\n\nAlcohol is also available inside the stadium."
@@ -338,7 +338,7 @@ class TeamDetails: NSObject {
             stationCode = "HGT"
             stadiumLat = 53.99173
             stadiumLon = -1.51448
-            teamStadiumName = "CNG Stadium"
+            teamStadiumName = "The Envirovent Stadium"
             teamCarInfo = "Sat Nav Postcode: HG2 7SA\n\nLeave the A1(M) at Junction 47 and take the A59 towards Knaresborough. Turn onto the A658 towards Bradford and Harrogate, at the second roundabout turn right onto the A661 towards Harrogate. You will pass a Supermarket and then after the traffic lights the entrance to the ground is a bit further down on the right."
             teamTrainInfo = "Exit Harrogate Station and turn right, away from the shopping centre. Turn left and go over Station Bridge, and at the roundabout walk straight over into Station Avenue. Follow Station Avenue into North Park Road, which then becomes Knaresborough Road. Cross Knaresborough Road and then walk through the park called The Stray diagonally joining up with Wetherby Road. The ground is on Wetherby Road on the left-hand side."
             teamDrinkInfo = "There is a Club House inside the ground which admits away fans unless segregation is in force. Otherwise, the nearest pub is the Woodlands, a short distance back down the A661 Wetherby Road heading away from town. Harrogate town centre is around a 20-minute walk away, with plenty of pubs including a Wetherspoons."
@@ -358,7 +358,7 @@ class TeamDetails: NSObject {
             stationCode = "HUL"
             stadiumLat = 53.7457315
             stadiumLon = -0.3680162
-            teamStadiumName = "KCOM Stadium"
+            teamStadiumName = "MKM Stadium"
             teamCarInfo = "Sat Nav Postcode: HU3 6HU\n\nFrom the end of the M62 stay on the A63 to Hull, the ground (KC Stadium) is clearly signposted from here."
             teamTrainInfo = "From Hull Station take the southern exit onto Anlaby Road, tun right and follow Anlaby Road to the Ground."
             teamDrinkInfo = "Either drink in the City Centre before heading to the ground or try 'The Brickmakers' which is opposite the main stadium car park. The Walton Street Social Club also admits away fans.\n\nAlcohol is also available inside the stadium."
@@ -378,7 +378,7 @@ class TeamDetails: NSObject {
             stationCode = "SRA"
             stadiumLat = 51.5602116
             stadiumLon = -0.0118855
-            teamStadiumName = "Breyer Group Stadium"
+            teamStadiumName = "Gaughan Group Stadium"
             teamCarInfo = "Sat Nav Postcode: E10 5NF\n\nLeave the M25 at junction 27 and take the M11 southbound.  At the end of the M11, bear right (A406 N. Circ. Rd West, London N and W) onto the North Circular Road.  Keep in left hand lanes and take first exit (signposted Walthamstow and City A104).  At the roundabout turn left into Woodford New Road (A104). At next roundabout take 2nd exit and follow road round to left into Lea Bridge Road.  After 0.5 miles turn left at lights into Leyton Green Road.  Filter left after 0.3 miles and turn left at the T-junction into Leyton High Road.  After 1.2 miles ground is on the right down Buckingham Road."
             teamTrainInfo = "Take the Central Line to Leyton Tube Station.  Exit the station and turn right onto the High Road Leyton.  Walk up the High Road and then take the seventh left into Buckingham Road for the ground.  The nearest National Rail Station is Stratford, where you can change to the Central Line."
             teamDrinkInfo = "The supporters club at the ground (in the West Stand) admits away fans.  The nearest pub to the ground is the Coach & Horses, on Leyton High Road.  Turn right out of the tube station and walk along the High Road (past the turning for the ground) for about half a mile."
@@ -448,7 +448,7 @@ class TeamDetails: NSObject {
             stationCode = "MCM"
             stadiumLat = 54.061180
             stadiumLon = -2.866935
-            teamStadiumName = "Globe Arena"
+            teamStadiumName = "Mazuma Stadium"
             teamCarInfo = "Sat Nav Postcode: LA4 4TB\n\nLeave the M6 at Junction 34 and follow signs to Morecambe. Cross the River Lune in the left hand lane and continue following signs for Morecambe onto the A589. At the first two roundabouts carry straight on, and at the third roundabout turn left and continue along Westgate for about a mile.  The ground is on the right after passing the Fire Station."
             teamTrainInfo = "Exit Morecambe Station and walk down station approach to Central Drive. Take the next right into Billy Hill and then right again onto West End Road. Walk down West End Road and bear left into Acre Moss Lane, which becomes Buckingham Road. Finally turn left into Westgate and the ground is down here on the left."
             teamDrinkInfo = "The closest pub to the ground for away fans is at the Regent Leisure Holiday Park, turning right from the ground a few minutes walk along Westgate. Alternatively there are plenty of pubs down on the seafront, about a fifteen minute walk from the ground."
@@ -468,7 +468,7 @@ class TeamDetails: NSObject {
             stationCode = "NMP"
             stadiumLat = 52.235099
             stadiumLon = -0.9342712
-            teamStadiumName = "PTS Academy Stadium"
+            teamStadiumName = "Sixfields Stadium"
             teamCarInfo = "Sat Nav Postcode: NN5 5QA\n\nLeave the M1 at Junction 15A and take the A43 towards Northampton. Once on the A43 go over two roundabouts and at the third roundabout turn right into Edgar Mobbs Way for the ground."
             teamTrainInfo = "Exit Northampton Station and cross the car park to St Andrew's Road and turn right walking down to Black Lion Hill. Turn right onto Black Lion Hill, which becomes St James Road. After HSS Hire turn left into St James Mill Road, and then right into Harvey Reeves Road, which becomes Edgar Mobbs Way. Follow Edgar Mobbs Way to the ground."
             teamDrinkInfo = "There are a few options on the complex the stadium is based, although The Magic Tower and The Sixfields Tavern don't generally admit away fans."
@@ -558,7 +558,7 @@ class TeamDetails: NSObject {
             stationCode = "SPB"
             stadiumLat = 51.510610
             stadiumLon = -0.230760
-            teamStadiumName = "Kiyan Prince Foundation Stadium"
+            teamStadiumName = "MATRADE Loftus Road Stadium"
             teamCarInfo = "Sat Nav Postcode: W12 7PA\n\nFrom the M25 Junction 16 take the M40 towards Central London. At the BBC White City complex turn off the A40 onto the A219 (Wood Lane), go under the A40 and then turn off Wood Lane into South Africa Road which leads down to the ground."
             teamTrainInfo = "Take the Central Line to White City Tube Station, exit the station and turn right onto Wood Lane, and then take the first left down South Africa Road to the ground."
             teamDrinkInfo = "The pubs around Shepherds Bush Green (Walkabout and O'Neill's) are fine for away fans. Exit White City Tube Station turn left and walk down Wood Lane.\n\nAlcohol is also available inside the stadium."
@@ -568,7 +568,7 @@ class TeamDetails: NSObject {
             stationCode = "RDG"
             stadiumLat = 51.4223249
             stadiumLon = -0.9834968
-            teamStadiumName = "Madejski Stadium"
+            teamStadiumName = "Select Car Leasing Stadium"
             teamCarInfo = "Sat Nav Postcode: RG2 0FL\n\nFrom the M4 Junction 11 take the A33 (Reading Relief Road) towards Reading, turning off the A33 into Hurst Road for the ground."
             teamTrainInfo = "From Reading Station take the Football Special bus to the ground, come out of the station cross the road and turn right for the bus stop."
             teamDrinkInfo = "There are no pubs near to the ground, so if arriving by train then drink in the town centre by the railway station before getting the buses out to the stadium.  There is also a Holiday Inn and pub called Calaghans about fifteen minutes walk from the ground on Imperial Way.\n\nAlcohol is also available inside the stadium."
@@ -578,7 +578,7 @@ class TeamDetails: NSObject {
             stationCode = "RMC"
             stadiumLat = 53.4296308
             stadiumLon = -1.3611662
-            teamStadiumName = "New York Stadium"
+            teamStadiumName = "AESSEAL New York Stadium"
             teamCarInfo = "Sat Nav Postcode: S60 1AH\n\nFrom the North, leave the M1 at Junction 34, onto the A6178 towards Rotherham. At the third roundabout take the first exit onto the A630, at the next roundabout turn right onto Main Street for the ground.\n\nFrom the South, leave the M1 at Junction 33, onto the A630 towards Rotherham. At the fourth roundabout turn right onto Main Street for the ground."
             teamTrainInfo = "From Rotherham Central Station exit right on to Bridge Street. Cross over the river and take the first right, walking down this footpath alongside the river.  This footpath leads to Market Street, after Tesco. At the end of Market Street turn left onto Main Street for the ground."
             teamDrinkInfo = "As the ground is near the centre of town there are several town centre pubs to choose from.\n\nAlcohol is also available inside the stadium."
@@ -618,7 +618,7 @@ class TeamDetails: NSObject {
             stationCode = "SHR"
             stadiumLat = 52.6884899
             stadiumLon = -2.7484126
-            teamStadiumName = "Montgomery Waters Meadow"
+            teamStadiumName = "Croud Meadow"
             teamCarInfo = "Sat Nav Postcode: SY2 6ST\n\nAt the end of the M54 continue onto the A5 and at the junction with the A49 bear left, staying on the A5. At the next roundabout take the 3rd exit into the B4380 (Thieves Lane). Continue along Thieves Lane going straight over two roundabouts into Oteley Road for the ground."
             teamTrainInfo = "Shrewsbury Station is over 2 miles from the ground so taxi is the best option."
             teamDrinkInfo = "There are two pubs both about ten minutes walk from the ground, The Charles Darwin and The Brooklands Hotel. The Charles Darwin is right from the ground along Oteley Road, then second left into Sutton Road. The Brooklands Hotel is left from the ground along Oteley Road, left into Roman Road, and then left into Mill Street.\n\nAlcohol is also available inside the stadium."
@@ -668,7 +668,7 @@ class TeamDetails: NSObject {
             stationCode = "SWA"
             stadiumLat = 51.6421561
             stadiumLon = -3.9351185
-            teamStadiumName = "Liberty Stadium"
+            teamStadiumName = "Swansea.com Stadium"
             teamCarInfo = "Sat Nav Postcode: SA1 2FA\n\nFrom the M4 Junction 45 take the A4067 towards Swansea. The ground is on this road after about two miles."
             teamTrainInfo = "Swansea Station is about two miles from the ground so bus or taxi is easiest. To walk come out of the station and walk up the High Street until the Camarthen Road junction, turn right here into Bridge Street which becomes Neath Road. Follow Neath Road up to the ground."
             teamDrinkInfo = "The pubs around the stadium do not admit away fans, so drinking in Swansea city centre before heading to the stadium is the best bet.\n\nAlcohol is also available inside the stadium."
@@ -698,7 +698,7 @@ class TeamDetails: NSObject {
             stationCode = "BSC"
             stadiumLat = 52.5655187
             stadiumLon = -1.991164
-            teamStadiumName = "Banks Stadium"
+            teamStadiumName = "Poundland Bescot Stadium"
             teamCarInfo = "Sat Nav Postcode: WS1 4SA\n\nLeave the M6 at Junction 9 taking the A461 towards Walsall. Turn right on to the A4148 (Wallowes Lane) and then turn right at the second set of traffic lights.  The ground is on the left."
             teamTrainInfo = "From Bescot Stadium Station, exit the station and walk under the M6 to the ground."
             teamDrinkInfo = "The closest pub to the ground is the King George V, on Wallowes Lane about 15 minutes walk away by Morrisions. There is also the Saddlers Club outside the ground, which admits away fans for a small fee.\n\nAlcohol is not available inside the stadium."
@@ -728,7 +728,7 @@ class TeamDetails: NSObject {
             stationCode = "WGW"
             stadiumLat = 53.5471948
             stadiumLon = -2.6545159
-            teamStadiumName = "DW Stadium"
+            teamStadiumName = "The Brick Community Stadium"
             teamCarInfo = "Sat Nav Postcode: WN5 0UZ\n\nLeave the M6 at Junction 26 and take the A449 towards Wigan town centre, after the junction with the A49 then turn left into Robin Park Road, after Pizza Hut turn left into Anjou Blvd for the ground."
             teamTrainInfo = "On leaving either Wigan North or Wallgate Station, head for Wallgate and follow this road out of Wigan, after crossing the canal and the railway turn right into Stadium Way and follow this round to the ground."
             teamDrinkInfo = "The traditional away pub is the Red Robin opposite the cinema complex near the ground. There is also often a large Marquee next to the away turnstiles holding a bar for away fans.\n\nAlcohol is also available inside the stadium."
@@ -738,7 +738,7 @@ class TeamDetails: NSObject {
             stationCode = "WRX"
             stadiumLat = 53.05195
             stadiumLon = -3.00362
-            teamStadiumName = "The Racecourse Ground"
+            teamStadiumName = "STōK Cae Ras"
             teamCarInfo = "Sat Nav Postcode: LL11 2AH\n\nFrom the North take the A483 towards Wrexham. Leave the A483 at the junction of the A541, the ground is 300 yards from this junction towards the Town Centre.\n\nFrom the South take the M54 to the end of the Motorway, joining the A5 towards Shrewsbury. Stay on the A5 until you reach the A483 towards Wrexham, then follow the directions from the North."
             teamTrainInfo = "Take the train to Wrexham General as it is located next to the stadium. Exit the station and walk up the approach road, turning right at the top along the main road. The stadium is along on the right."
             teamDrinkInfo = "At the ground there is the Centenary Club, which admits away fans and is close to the away turnstiles. The Turf pub is also on one corner of the ground, and admits a small number of away fans. The most popular pub with away fans is the Plas Coch, about a five-minute walk from the ground."
