@@ -26,6 +26,7 @@ class AboutViewController: UIViewController {
         paragraphStyle.alignment = .justified
         let bodyAttributes: [NSAttributedString.Key: Any] = [
             .font: bodyFont,
+            .foregroundColor: UIColor.label,
             .paragraphStyle: paragraphStyle]
         let creditBodyAttributes: [NSAttributedString.Key: Any] = [
             .font: bodyFont,
