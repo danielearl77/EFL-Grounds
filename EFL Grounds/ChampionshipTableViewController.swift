@@ -10,7 +10,7 @@ import UIKit
 
 class ChampionshipTableViewController: UITableViewController {
 
-     var Teams: [String] = ["Birmingham City","Blackburn Rovers","Bristol City","Coventry City","Derby County","Hull City","Ipswich Town","Leicester City","Luton Town","Middlesbrough","Millwall","Norwich City","Oxford United","Plymouth Argyle","Portsmouth","Preston North End","Queens Park Rangers","Sheffield United","Sheffield Wednesday","Southampton","Stoke City","Sunderland","Swansea City","Watford","West Bromwich Albion","Wrexham"]
+     var Teams: [String] = ["Birmingham City","Blackburn Rovers","Bristol City","Coventry City","Derby County","Hull City","Ipswich Town","Leicester City","Middlesbrough","Millwall","Norwich City","Oxford United","Portsmouth","Preston North End","Queens Park Rangers","Sheffield United","Sheffield Wednesday","Southampton","Stoke City","Sunderland","Swansea City","Watford","West Bromwich Albion","Wrexham"]
             
     override func viewDidLoad() {
         //print(Teams.count)

@@ -54,6 +54,16 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "The nearest pub to the ground is the Corner Pin, on the corner of Summertown and Riverside Road. There are also plenty of pubs near Wimbledon Railway Station."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/afc-wimbledon/scores-fixtures"
         }
+        else if team == "Barnet" {
+            stationCode = "XXX"
+            stadiumLat = 51.602621
+            stadiumLon = -0.291776
+            teamStadiumName = ""
+            teamCarInfo = ""
+            teamTrainInfo = ""
+            teamDrinkInfo = ""
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/barnet/scores-fixtures"
+        }
         else if team == "Barnsley" {
             stationCode = "BNY"
             stadiumLat = 53.5522662
