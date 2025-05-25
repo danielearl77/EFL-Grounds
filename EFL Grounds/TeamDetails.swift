@@ -694,16 +694,6 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "There aren't really any pubs near the stadium, so the bext option is drinking on the way into Stoke before the game. There is, however, a Holiday Inn and a Harvester pub next to the ground. There is also a Power League complex with a bar that admits away fans.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/stoke-city/scores-fixtures"
         }
-        else if team == "Sunderland" {
-            stationCode = "SUN"
-            stadiumLat = 54.9147354
-            stadiumLon = -1.3874242
-            teamStadiumName = "Stadium of Light"
-            teamCarInfo = "Sat Nav Postcode: SR5 1SU\n\nFrom the A19, turn of onto the A1231 (Wessington Way) towards Sunderland. Stay on the A1231 until it becomes Queen's Road (B1289) and then Keir Hardie Way. The ground is on the right. There is a football park and ride at Sunderland Enterprise Park (well signed from the A1231)."
-            teamTrainInfo = "Come out of Sunderland Train station and turn left, walk through the pedestrian area to Fawcett Street, turn left and follow this road up to the Wearmouth Bridge. Carry on up North Bridge Street and turn left into Millennium Way, the ground is then straight ahead."
-            teamDrinkInfo = "The 'William Jameson' in Sunderland town centre, and two social clubs (The Sunderland Companions Club & New Democratic Club) on North Bridge Stree all admit away fans.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sunderland/scores-fixtures"
-        }
         else if team == "Swansea City" {
             stationCode = "SWA"
             stadiumLat = 51.6421561
