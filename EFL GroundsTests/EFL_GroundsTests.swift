@@ -11,7 +11,7 @@ import Testing
 
 struct EFL_GroundsTests {
 
-    @Test("Championship Team Count") func checkNumberOfTeams() async throws {
+    @Test("Championship Team Count") func checkNumberOfTeamsInChampionship() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
         let team = await ChampionshipTableViewController().Teams
         #expect(team.count == 24)

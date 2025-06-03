@@ -524,6 +524,16 @@ class TeamDetails: NSObject {
             teamDrinkInfo = "The Globe on London Road is a good choice, as is the Southbank, across Trent Bridge. Alternatively, there are plenty of pubs in Nottingham City Centre.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/notts-county/scores-fixtures"
         }
+        else if team == "Oldham Athletic" {
+            stationCode = "MIH"
+            stadiumLat = 53.5543382
+            stadiumLon = -2.1280832
+            teamStadiumName = "Boundary Park"
+            teamCarInfo = "Sat Nav Postcode: OL1 2PA\n\nLeave the M62 at Juntction 20 and take the A627 towards Oldham, then take the second slip road off the A627 following signs to Royton (A663). Turn left at the roundabout towards Royton (A663) then take the next right onto Hilbre Avenue for the ground."
+            teamTrainInfo = "The nearest station, Oldham Mill Hills, is to far to walk so either take a taxi from here or catch a bus from Manchester Piccadilly Bus Station to Oldham. Routes 24, 181, and 182 take around 25 minutes and run past the ground."
+            teamDrinkInfo = "The Clayton Green on Sheepfoot Lane is the closest pub to the ground."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/oldham-athletic/scores-fixtures"
+        }
         else if team == "Oxford United" {
             stationCode = "OXF"
             stadiumLat = 51.7175536
