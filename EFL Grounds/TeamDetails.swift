@@ -48,7 +48,7 @@ class TeamDetails: NSObject {
             stationCode = "HYR"
             stadiumLat = 51.431547
             stadiumLon = -0.186599
-            teamStadiumName = "Plough Lane"
+            teamStadiumName = "Cherry Red Records Stadium"
             teamCarInfo = "Sat Nav Postcode: SW17 0NR\n\nLeave the M25 at Junction 10 and take the A3 towards London. Turn off the A3 at New Malden onto the A298 towards Wimbledon. Continue on the A298 for half a mile and then turn left onto Grand Drive, go past Raynes Park Station and then turn left onto the A238 and then first right onto Worple Road. Continue straight on and at the roundabout take the third exit onto Francis Grove, which becomes St Georges Road.  At the roundabout at the end take the second exit onto the B235.  Continue on the B235, over the river and past Wickes and Lidl, turn left at the next roundabout onto Summerstown and then first left onto Riverside Road, the ground is on the left down New Stadium Road."
             teamTrainInfo = "The nearest station to Plough Lane is Haydons Road, with Thameslink trains from Wimbledon or London St Pancreas. On leaving the station walk up the steps to Haydons Road and turn right. Head north on Haydons Road until you reach the junction with Gap Road and Plough Lane. Turn right onto Plough Lane and continue walking, over the river, until you reach Lidl. The ground is on the left behind the blocks of new apartments."
             teamDrinkInfo = "The nearest pub to the ground is the Corner Pin, on the corner of Summertown and Riverside Road. There are also plenty of pubs near Wimbledon Railway Station."
@@ -58,7 +58,7 @@ class TeamDetails: NSObject {
             stationCode = "XXX"
             stadiumLat = 51.602621
             stadiumLon = -0.291776
-            teamStadiumName = ""
+            teamStadiumName = "The Hive London"
             teamCarInfo = ""
             teamTrainInfo = ""
             teamDrinkInfo = ""
@@ -78,7 +78,7 @@ class TeamDetails: NSObject {
             stationCode = "BIF"
             stadiumLat = 54.12330
             stadiumLon = -3.23494
-            teamStadiumName = "SO Legal Stadium"
+            teamStadiumName = "Holker Street"
             teamCarInfo = "Sat Nav Postcode: LA14 5UW\n\nLeave the M6 at Junction 36 and take the A590 towards Barrow-in-Furness. As you enter Barrow you pass a Fire Station on the right. Turn left into Wilkie Road and then right into Holker Street for the ground. There is plenty of street parking near the ground."
             teamTrainInfo = "Exit Barrow-in-Furness Station and follow the small station entrance road onto Holker Street.  The ground is around a mile away further up Holker Street."
             teamDrinkInfo = "Barrow has a Club House bar called Crossbar, which is open to away supporters. There is also a pub, Soccer Bar, right next to the ground. Further afield if you go along the A590 towards the Town Centre there is a Hungry Horse chain pub and a retail park with several chain fast food outlets."
